@@ -21,7 +21,7 @@ const Header = () => {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-white hover:text-secondary">
+              <NavigationMenuTrigger className="text-white bg-transparent hover:text-secondary hover:bg-primary/90 focus:bg-primary/90 data-[state=open]:bg-primary/90 data-[active]:bg-primary/90">
                 Услуги
               </NavigationMenuTrigger>
               <NavigationMenuContent>
